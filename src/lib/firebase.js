@@ -3,14 +3,15 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
+// Firebase configuration
+// Replace these placeholder values with your actual Firebase config
 const firebaseConfig = {
-  // Users will need to add their own Firebase config here
-  apiKey: "your-api-key",
-  authDomain: "your-auth-domain",
+  apiKey: "your-api-key-here",
+  authDomain: "your-project-id.firebaseapp.com",
   projectId: "your-project-id",
-  storageBucket: "your-storage-bucket",
-  messagingSenderId: "your-messaging-sender-id",
-  appId: "your-app-id"
+  storageBucket: "your-project-id.appspot.com",
+  messagingSenderId: "123456789012",
+  appId: "1:123456789012:web:abcdef123456789012345"
 };
 
 // Initialize Firebase
